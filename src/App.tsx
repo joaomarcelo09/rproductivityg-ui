@@ -1,6 +1,5 @@
-export function App() {
+import "./index.css";
 
-  return (
-    <h1>Hello</h1>
-  )
+export function App() {
+  return <div className="w-screen h-screen"></div>;
 }
